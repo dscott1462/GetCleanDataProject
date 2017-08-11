@@ -1,8 +1,10 @@
 #Original Data Set
+
 Available At: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
 #Data Merged, Identifiers Retained
+
 This data set is a modification of data from accelerometers on Sumsung Galaxy S Smartphones publically available from UCI.
 The original data set was separated into test and training data sets. These have been merged.
 The original data set had two identifiers: subject (the person) and activity(what they were doing). These fields were retained.
@@ -10,6 +12,7 @@ subject
 activity
 
 #Data subsetted and averages taken for the remaining variables at the subject-activity level
+
 Then a subset of fields(those listed below) were selected and averaged at the subject-activity leve.
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
